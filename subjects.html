@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>E-NOTES | BRANCH</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="editing.css">
+</head>
+<body>
+<!-- HEADER SECTION-->
+	<div style="float: left; width: 25%;">
+		<p style="margin-left: 10%"><img src="https://www.ietlucknow.ac.in/sites/default/files/ietlogo80_0.png" alt="IET Lucknow logo" width="80" height="80"></p>
+	</div>
+	<div style="float: left; width:50%">
+		<p>
+		<h1>INSTITUTE OF ENGINEERING AND TECHNOLOGY</h1>
+		<h3>अभियांत्रिकी एवं प्रौद्योगिकी संस्थान, लखनऊ</h3>
+		<h3><small>An Autonomous Constituent Institute of Dr. A.P.J. Abdul Kalam Technical University, U.P., Lucknow</small></h3></p>
+	</div>
+	<div style="float: left; width: 25%;">
+		<p style="margin-right: 10%"><img align="right" src="https://aktu.ac.in/images/logo.png" alt="AKTU logo" width="80" height="80"></p>
+	</div>
+
+	<!-- YEAR PAGE -->
+	<button class="accordion">1st year </button>
+	<div class="panel">
+		<ul>
+			<li>SUBJECT 1</li>
+			<li>SUBJECT 2</li>
+			<li>SUBJECT 3</li>
+			<li>SUBJECT 4</li>
+			<li>SUBJECT 5</li>
+		</ul>
+	</div>
+	<button class="accordion"> 2nd year</button>
+	<div class="panel">
+		<ul>
+			<li>SUBJECT 1</li>
+			<li>SUBJECT 2</li>
+			<li>SUBJECT 3</li>
+			<li>SUBJECT 4</li>
+			<li>SUBJECT 5</li>
+		</ul>
+	</div>
+	<button class="accordion"> 3rd year</button>
+	<div class="panel">
+		<ul>
+			<li>SUBJECT 1</li>
+			<li>SUBJECT 2</li>
+			<li>SUBJECT 3</li>
+			<li>SUBJECT 4</li>
+			<li>SUBJECT 5</li>
+		</ul>
+	</div>
+	<button class="accordion"> FINAL year</button>
+	<div class="panel">
+		<ul>
+			<li>SUBJECT 1</li>
+			<li>SUBJECT 2</li>
+			<li>SUBJECT 3</li>
+			<li>SUBJECT 4</li>
+			<li>SUBJECT 5</li>
+		</ul>
+	</div>
+
+<p class="bgforback"><a href="E-NOTES.html"> >>Back to resources</a></p>
+
+	<script>
+		var acc = document.getElementsByClassName("accordion");
+        var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+	</script>
+
+</body>
+</html>
